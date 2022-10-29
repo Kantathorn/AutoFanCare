@@ -1,0 +1,51 @@
+This project developed by
+1.Miss KANTIDA PARATTANAWONG
+2.Mr. KANTATHORN WUDHIWIRIYA
+3.Mr. JEERAPHAT CHIMMA
+4.Miss SUNISA AKKAWONG
+Department of Computer Engineering, KASETSART UNIVERSITY
+(Practicum in Computer Engineering - 01204223)
+
+โครงงานนี้ถูกพัฒนาโดย
+1.นางสาวกัณธิฎา ภารัตนวงศ์
+2.นายกันตธร วุฒิวิริยะ
+3.นายจีรพัฒน์ ฉิมมา
+4.นางสาวสุนิษา อรรควงษ์
+ภาควิชาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์
+(รายวิชา การฝึกปฏิบัติทางวิศวกรรมคอมพิวเตอร์ รหัสวิชา 01204223)
+
+โครงสร้าง Directory
+- Directory APP รวมไฟล์ต่างๆที่ทำงานบน Raspberry Pi
+	- practicum.py ไฟล์สำหรับสั่งการสื่อสารระหว่าง Raspberry Pi กับ MCU Board
+- Directory Firmware รวมไฟล์ต่างๆที่ทำงานบน MCU Board
+	- Autofan.ino Firmware หลักาำหรับบอร์ด MCU
+	- usbconfig.h
+- Other
+	- Presentation.pdf
+- Directory Schematic
+	- รูปภาพ Schematic
+
+Hardware
+1) Board Microcontroller (Practicum Board)
+2) พัดลม 5V DC
+3) Module L9110 Fan Module
+4) Temperature Sensor Module KY-001 พร้อมเซ็นเซอร์วัดอุณหภูมิ DS18B20
+5) LCD Blue screen 16x2
+6) I2C Interface Module
+7) สายไฟจัมป์เปอร์ ผู้-เมีย
+8) สายไฟจัมป์เปอร์ ผู้-ผู้
+9) สายแพร์
+10) Breadboard
+
+Software
+1) Arduino IDE
+2) Python3
+3) PyUsb
+4) Python-venv
+
+Library for Arduino
+1) DallasTemperature.h for Temperature Sensor
+2) LiquidCrystal_I2C.h for Display LCD 1602 with I2C Interface
+3) usbdrv.h for USB control
+4) OneWire.h for Temperature Sensor
+5) Wire.h for LCD
